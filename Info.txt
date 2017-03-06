@@ -1,0 +1,45 @@
+Common Words: Article, Story, Content, Text-Wrapper
+
+Steps:
+  1. Open when Reddit opens
+  2. Download HTML from websites
+  3. Look through tags for keywords
+  4. Count words and divide by average or custom WPM times
+  5. Display on Reddit HTML
+
+
+Pretty much just went on /r/worldnews and creeped their html for class names
+Div class names on news websites:
+  story_content
+  articleBody
+  articleBody and article__body article-story-body
+  story-body-text story-content
+  article page text
+  sz (?? guelphnow.ca wtf)
+  article_header module
+  class= "npBlock npPostContent" itemprop= "articleBody"
+  td-post-content
+  class= "text-wrapper" itemprop= "articleBody"
+  >> buzzfeeds div names all have some kind of "buzz" in them, lol
+  id= "content"
+  id= "article-entry"
+  class= "story-body"
+  property= "articleBody"
+  class = "field" or class = "1-content" or role = "article"
+  id = "articleBody"
+  article-mainbody-centre
+  article-body
+  sing-cont
+  class = "article-inner" itemprop = "articleBody"
+  content_main
+  td-post-content td-pb-padding-side
+  content__main
+  class = "article-content post-page" itemprop = "articleBody"
+  story-txt
+  article-wrapper clearfix and main-content-column and text-wrapper
+  itemprop = "articleBody"
+  l-container
+  mod-content story-content
+  ArticleBody
+  id = "story-target" class = "content-body-16194140-136168403"
+  class = "articleText" itemprop = "articleBody"
